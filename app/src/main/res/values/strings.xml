@@ -1,0 +1,31 @@
+<!--  Chaînes de caractères utilisées dans l'application Outil Date -->
+<resources>
+    <string name="jour_semaine">Quel jour de la semaine ?</string>
+    <string name="choix_date">Choix de la date : </string>
+    <string name="phrase_reponse">"Cette date correspond à un "</string>
+
+    <!-- Nom de l'application et intitulés des onglets -->
+    <string name="app_name">OutilsDate</string>
+    <string name="onglet_jour"><b>Jour</b></string>
+    <string name="onglet_ecart"><b>Ecart</b></string>
+
+    <!-- Chaînes utilisées dans l'onglet permettant de rechercher le jour d'un date -->
+    <string name="label_intro_jour1">Recherche du jour de la semaine associé à une date.</string>
+    <string name="label_intro_jour2">Choisissez une date</string>
+    <string name="resultat_jour">"Le jour de la semaine est "</string>
+
+    <!-- Chaînes utilisées dans l'onglet permettant de calculer l'écart entre 2 dates -->
+    <string name="label_intro_ecart1">Recherche du nombre de jours qui séparent 2 dates.</string>
+    <string name="label_intro_ecart2">Choisissez 2 dates</string>
+    <string name="label_date1">Première date : </string>
+    <string name="label_date2">Deuxième date : </string>
+    <string name="resultat_ecart">" jour(s) sépare(nt) ces 2 dates" </string>
+
+    <!-- Label du bouton qui lance la recherche -->
+    <string name="bouton_rechercher">Rechercher</string>
+
+    <!-- libellés des boutons d'onglet -->
+    <string name="btn_onglet_jour">Jour</string>
+    <string name="btn_onglet_ecart">Ecart</string>
+
+</resources>

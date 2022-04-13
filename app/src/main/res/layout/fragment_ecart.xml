@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vue du 2ème fragment (et donc aussi du 2ème onglet) : pas de fonctionnalité dans celui-ci -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="fr.iutrodez.ongletdatepicker.affichagebasique.FragmentEcart">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--  2 TextView pour présenter le rôle de l'onglet -->
+        <TextView
+            style="@style/StyleTexte"
+            android:text="@string/label_intro_ecart1" />
+        <TextView
+            style="@style/StyleTexte"
+            android:text="@string/label_intro_ecart2" />
+        <View
+            style="@style/BarreSeparation"/>
+
+        <!--  pour saisir les 2 dates à traiter -->
+        <DatePicker
+            android:id="@+id/selecteurDate1"
+            style="@style/StylePetitDatePicker" />
+        <DatePicker
+            android:id="@+id/selecteurDate2"
+            style="@style/StylePetitDatePicker"/>
+
+        <!--  bouton pour lancer le calcul du nombre de jours qui
+              séparent les deux dates saisies -->
+        <Button
+            android:id="@+id/btn_ecart_date"
+            style="@style/StyleBouton"
+            android:text="@string/bouton_rechercher"/>
+
+        <View
+            style="@style/BarreSeparation" />
+
+        <!--  pour afficher le résultat -->
+        <TextView
+            android:id="@+id/resultat_ecart"
+            style="@style/StyleTexte"
+            android:layout_marginBottom="@dimen/marge_verticale"/>
+
+
+    </LinearLayout>
+</ScrollView>

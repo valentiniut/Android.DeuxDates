@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dimensions de l'application Outils Date -->
+<resources>
+
+    <!-- hauteur de la barre de séparation -->
+    <dimen name="hauteur_barre">2dp</dimen>
+
+    <!-- marges -->
+    <dimen name="marge_verticale">15dp</dimen>
+    <dimen name="petite_marge">5dp</dimen>
+
+    <!-- marge négatives pour supprimer du vide en haut et en bas des DatePicker -->
+    <dimen name="marge_negative">-40dp</dimen>
+</resources>

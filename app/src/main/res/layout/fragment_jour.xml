@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vue du 1er fragment (et donc du 1er onglet) : génération d'un nombre aléatoire -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.iutrodez.ongletdatepicker.affichagebasique.FragmentJour">
+
+    <!--  2 TextView pour présenter le rôle de l'onglet -->
+    <TextView
+        style="@style/StyleTexte"
+        android:text="@string/label_intro_jour1" />
+    <TextView
+        style="@style/StyleTexte"
+        android:text="@string/label_intro_jour2" />
+
+    <View
+        style="@style/BarreSeparation" />
+
+    <!--  pour saisir la date à traiter -->
+    <DatePicker
+        android:id="@+id/selecteurDate"
+        style="@style/StyleDatePicker"/>
+
+    <!--  bouton pour lancer la recherche du jour de la semaine -->
+    <Button
+        android:id="@+id/btn_rechercher_jour"
+        style="@style/StyleBouton"
+        android:text="@string/bouton_rechercher" />
+
+    <View
+        style="@style/BarreSeparation" />
+
+    <!--  pour afficher le résultat -->
+    <TextView
+        android:id="@+id/resultat_jour"
+        style="@style/StyleTexte" />
+
+
+</LinearLayout>
